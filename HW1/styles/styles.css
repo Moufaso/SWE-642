@@ -1,0 +1,191 @@
+/* * {
+   outline: 2px solid peru;
+} */
+
+html {
+   font-family: serif;
+   background-color: #FFCC33;
+   margin: 0.5vw;
+}
+
+h1 {
+   color: #006633;
+   font-weight: lighter;
+   font-size: 24px;
+   width: 200px;
+   margin: 0.2vw;
+   margin-left: 25px;
+}
+
+button {
+   margin: 1.1vw;
+   font-size: 17px;
+   font-weight: bold;
+   background-color: #FFCC33;
+   border: #FFCC33;
+}
+
+button a {
+   text-decoration: none;
+   color: #333;
+}
+
+header {
+   background-color: #FFCC33;
+   display: flex;
+   border: 5px solid #006633;
+   box-shadow: -2.5px -2.5px 5px #333;
+}
+
+footer {
+   background-color: #333;
+   color: #e6e6e6;
+   display: flex;
+}
+
+body {
+   background-color: #e6e6e6;
+}
+
+table,
+th,
+td,
+tr {
+   border: 1px solid black;
+   border-collapse: collapse;
+   margin: 1%;
+   padding: 10px;
+   text-align: left;
+   font-size: 15px;
+}
+
+form {
+   padding: 0.5vw;
+   margin: 0.5vw;
+}
+
+label {
+   display: inline-block;
+   align-items: center;
+   padding: 0.7vw;
+}
+
+
+fieldset {
+   padding: 1vw;
+}
+
+#about-us {
+   margin: 1vw;
+   font-size: 17px;
+}
+
+#ms-degrees {
+   margin: 1vw;
+   font-size: 16px;
+}
+
+.container {
+   flex: 0;
+   display: flex;
+   align-items: center;
+}
+
+.alt-container {
+   flex: 1;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+
+.body-container {
+   column-count: 2;
+   column-gap: 0.1vw;
+   padding: 0.5vw;
+}
+
+.logo {
+   width: 90px;
+   height: auto;
+}
+
+.image {
+   width: 100%;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+.footer-container {
+   flex: 1;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   margin-left: 100px;
+}
+
+.alt2-container {
+   flex: 1;
+}
+
+.participant {
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+}
+
+.block {
+   display: block;
+}
+
+.required::before {
+   content: "* ";
+   color: red;
+}
+
+.buttons {
+   display: flex;
+   justify-content: center;
+}
+
+.button {
+   margin: 5px;
+   padding: 5px;
+   background-color: #006633;
+   border-color: #006633;
+   color: #FFCC33;
+}
+
+.dialog {
+   height: 35vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* Small Screens */
+@media (max-width: 700px) {
+   label {
+      display: block;
+      align-items: center;
+      padding: 0.7vw;
+   }
+
+   .body-container {
+      column-count: 1;
+      column-gap: 0.1vw;
+      padding: 0.5vw;
+   }
+
+   .footer-container {
+      display: block;
+      justify-content: end;
+      align-items: center;
+   }
+
+   .alt2-container {
+      display: block;
+      padding: 10px;
+   }
+}
