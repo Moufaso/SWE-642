@@ -1,0 +1,216 @@
+<!-- Author: Saman Hosseini -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>CS Department</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="./images/cs-icon.png" type="image/icon type">
+   <!-- Bootstrap -->
+   <link rel="stylesheet" type="text/css" href="./library/bootstrap.min.css">
+   <script type="text/javascript" src="./library/bootstrap.min.js"></script>
+   <!-- Custom CSS & JS -->
+   <link rel="stylesheet" href="./styles.css">
+   <script type="text/javascript" src="./script.js"></script>
+</head>
+
+<body onload="showContent('home')">
+   <div class="sticky-top">
+      <!-- Header -->
+      <header class="container-fluid">
+         <div class="row align-items-center">
+            <div class="col-auto">
+               <div class="row align-items-center">
+                  <div class="col-auto gx-3"><img class="logo" src="./images/logo-black.png"></div>
+                  <div class="col-auto gx-0">
+                     <h1>CS Department<br><span class="bold">Homepage</span></h1>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Navbar -->
+      <div class="container-fluid" style="background-color: #333;">
+         <nav class="navbar navbar-expand-sm navbar-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+               aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-nav collapse navbar-collapse align-items-start" id="navbarToggler">
+               <a class="nav-link" href="#" onclick="showContent('home')">Home</a>
+               <a class="nav-link" href="#" onclick="showContent('about-us')">About
+                  Us</a>
+               <a class="nav-link" href="#" onclick="showContent('ms-degrees')">MS Degrees</a>
+               <a class="nav-link" href="./pages/survey.html">Survey Form</a>
+            </div>
+         </nav>
+      </div>
+   </div>
+   <!-- Body -->
+   <!-- Home -->
+   <img class="img-fluid content-section" id="home" src="images/cs-department.jpg" alt=" CS Department">
+   <div class="container-fluid">
+      <!-- About Us -->
+      <div class="container-fluid content-section" id="about-us">
+         <h2>About Us</h2>
+         <p>
+            &emsp; With nearly 80 full-time faculty members, the CS Department at Mason is the largest department in
+            the College of Engineering and Computing, one of the largest departments on campus, and the largest,
+            fastest growing, and highest ranked Computer Science department in the Commonwealth of Virginia.
+         </p>
+         <p>
+            &emsp; The department offers two Bachelor of Science programs with a total enrollment of over 2200
+            students: the B.S. in Computer Science and the inter-disciplinary B.S. in Applied Computer Science; four
+            M.S. programs in Computer Science, Information Systems, Information Security and Assurance, and Software
+            Engineering with a total enrollment of almost 1000 students; and a Ph.D. program in Computer Science with
+            nearly 200 students. The department's faculty also teach and participate in the inter-disciplinary M.S.
+            in Data Analytics Engineering and the Ph.D. in Information Technology offered by the Volgenau School of
+            Engineering.
+         </p>
+         <p>
+            &emsp; The department has a world-class faculty with research strengths in all areas of computing, and a
+            strong commitment to teaching. Nearly half of our faculty were recruited in the past three years, and we
+            now rank among the Top 40 Computer Science Departments in the US. Our faculty are engaged in leading edge
+            research in their respective fields and have authored widely used textbooks and software. Our faculty's
+            excellence is reflected in the awards we have received for our research (27 NSF CAREER and AFOSR Young
+            Investigator awards, 7 Mason Emerging Researcher awards) and teaching (8 Mason Excellence in Teaching
+            awards), and our faculty include three ACM Fellows and five IEEE Fellows.
+         </p>
+         <p>
+            &emsp; The department has a world-class faculty with research strengths in all areas of computing, and a
+            strong commitment to teaching. Nearly half of our faculty were recruited in the past three years, and we
+            now rank among the Top 40 Computer Science Departments in the US. Our faculty are engaged in leading edge
+            research in their respective fields and have authored widely used textbooks and software. Our faculty's
+            excellence is reflected in the awards we have received for our research (27 NSF CAREER and AFOSR Young
+            Investigator awards, 7 Mason Emerging Researcher awards) and teaching (8 Mason Excellence in Teaching
+            awards), and our faculty include three ACM Fellows and five IEEE Fellows.
+         </p>
+      </div>
+      <!-- MS Degrees -->
+      <div class="container-fluid content-section" id="ms-degrees">
+         <h3>MS Degrees</h3>
+         <div class="row">
+            <div class="col-lg d-flex">
+               <table class="table table-bordered caption-top align-middle">
+                  <caption>Computer Science</caption>
+                  <thead class="align-middle">
+                     <tr>
+                        <th>Course Number</th>
+                        <th>Course Name</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>CS 550</td>
+                        <td>Database Systems</td>
+                     </tr>
+                     <tr>
+                        <td>CS 540</td>
+                        <td>Compilers</td>
+                     </tr>
+                     <tr>
+                        <td>CS 571</td>
+                        <td>Operating Systems</td>
+                     </tr>
+                     <tr>
+                        <td>CS 583</td>
+                        <td>Analysis of Algorithms</td>
+                     </tr>
+                     <tr>
+                        <td>CS 551</td>
+                        <td>Computer Graphics</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <div class="col-lg d-flex">
+               <table class="table table-bordered caption-top align-middle">
+                  <caption>Software Engineering</caption>
+                  <thead class="table-light align-middle">
+                     <tr>
+                        <th>Course Number</th>
+                        <th>Course Name</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>SWE 619</td>
+                        <td>Object-Oriented Software Specification and Construction</td>
+                     </tr>
+                     <tr>
+                        <td>SWE 621</td>
+                        <td>Software Design and Architecture</td>
+                     </tr>
+                     <tr>
+                        <td>SWE 632</td>
+                        <td>User Interface Design and Development</td>
+                     </tr>
+                     <tr>
+                        <td>SWE 637</td>
+                        <td>Software Testing</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <div class="col-lg d-flex">
+               <table class="table table-bordered caption-top align-middle">
+                  <caption>Information Systems</caption>
+                  <thead class="table-light align-middle">
+                     <tr>
+                        <th>Course Number</th>
+                        <th>Course Name</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>COMP 502</td>
+                        <td>Mathematical Foundations of Computing I</td>
+                     </tr>
+                     <tr>
+                        <td>CS 550</td>
+                        <td>Database Systems</td>
+                     </tr>
+                     <tr>
+                        <td>INFS 622</td>
+                        <td>Information Systems Analysis and Design</td>
+                     </tr>
+                     <tr>
+                        <td>INFS 580</td>
+                        <td>Analytics: Big Data to Information</td>
+                     </tr>
+                     <tr>
+                        <td>INFS 611</td>
+                        <td>Rapid Information Systems Prototyping</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Footer -->
+   <footer class="container-fluid">
+      <div class="row align-items-center">
+         <div class="col-auto col-sm-4 col-md-3">
+            <img class="logo" src="./images/logo-white.png">
+         </div>
+         <div class="col row">
+            <div class="col-md">
+               Department of Computer Science<br>
+               Nguyen Engineering Building<br>
+               4400 University Drive<br>
+               Fairfax, VA 22030
+            </div>
+            <div class="col-md">
+               Contact<br>
+               703-993-1530 (P)<br>
+               703-993-1710 (F)<br>
+            </div>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>
